@@ -1,0 +1,29 @@
+site_name: Kamal's Server
+site_description: What I run on my personal server — for friends and family
+site_author: Kamal
+repo_url: https://github.com/kamalcr7/server-docs-public
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.top
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Apps: apps.md
+  - Projects: projects.md
+  - Tech Stack: tech-stack.md
