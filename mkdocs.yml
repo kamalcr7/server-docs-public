@@ -1,26 +1,73 @@
 site_name: Kamal's Server
-site_description: What I run on my personal server — for friends and family
+site_description: What I run on my personal home server
 site_author: Kamal
+copyright: >
+  &copy; 2026 Kamal &mdash; Built with ❤️ for the homelab
+
 repo_url: https://github.com/kamalcr7/server-docs-public
 edit_uri: blob/main/docs/
 
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: indigo
-    accent: indigo
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - header.autohide
+  logo: assets/server-icon.svg
+  favicon: assets/favicon.svg
+
+extra_css:
+  - extra.css
 
 markdown_extensions:
   - pymdownx.highlight
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - admonition
+  - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kamalcr7
+  generator: false
 
 nav:
   - Home: index.md
