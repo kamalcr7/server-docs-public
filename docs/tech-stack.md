@@ -66,7 +66,7 @@ flowchart TD
   </div>
   <div class="info-card">
     <div class="info-card-label">RAM</div>
-    <div class="info-card-value">11 GB DDR4</div>
+    <div class="info-card-value">12 GB DDR4</div>
   </div>
   <div class="info-card">
     <div class="info-card-label">GPU</div>

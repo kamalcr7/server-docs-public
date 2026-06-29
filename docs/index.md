@@ -11,7 +11,7 @@
       <span class="hero-stat-label">Uptime</span>
     </div>
     <div class="hero-stat">
-      <span class="hero-stat-value">11 GB</span>
+      <span class="hero-stat-value">12 GB</span>
       <span class="hero-stat-label">RAM</span>
     </div>
     <div class="hero-stat">
@@ -45,6 +45,16 @@ flowchart LR
     Nginx --> Games
     Nginx --> Hermes
     Internet -->|This site| Pages
+    
+    style Internet fill:#10b981,color:#fff
+    style Cloudflare fill:#6366f1,color:#fff
+    style CF fill:#6366f1,color:#fff
+    style Pages fill:#6366f1,color:#fff
+    style Server fill:#1e1b4b,color:#fff
+    style Nginx fill:#22d3ee,color:#111
+    style Containers fill:#a78bfa,color:#fff
+    style Games fill:#f59e0b,color:#111
+    style Hermes fill:#f59e0b,color:#111
 ```
 
 ## What I use it for
