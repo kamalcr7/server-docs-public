@@ -51,7 +51,7 @@ flowchart LR
     style CF fill:#6366f1,color:#fff
     style Pages fill:#6366f1,color:#fff
     style Server fill:#1e1b4b,color:#fff
-    style Nginx fill:#22d3ee,color:#111
+    style Nginx fill:#0891b2,color:#fff
     style Containers fill:#a78bfa,color:#fff
     style Games fill:#f59e0b,color:#111
     style Hermes fill:#f59e0b,color:#111

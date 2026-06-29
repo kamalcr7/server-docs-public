@@ -48,7 +48,7 @@ flowchart TD
     
     style OS fill:#e95420,color:#fff
     style Infra fill:#6366f1,color:#fff
-    style Runtime fill:#22d3ee,color:#111
+    style Runtime fill:#0891b2,color:#fff
     style Apps fill:#a78bfa,color:#fff
 ```
 
