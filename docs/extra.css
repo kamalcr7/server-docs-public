@@ -177,15 +177,11 @@ html { scroll-behavior: smooth; }
 /* ─── Mermaid text readability ─── */
 .mermaid svg { max-width: 100%; }
 
-/* Subgraph title labels — inherit theme text color */
-.mermaid .cluster-label text { fill: var(--md-typeset-color); }
-
-/* Edge labels */
+/* Edge labels — inherit theme text for visibility */
 .mermaid .edgeLabel .label text { fill: var(--md-typeset-color); }
 
 /* Font consistency */
-.mermaid .label text,
-.mermaid .cluster-label text { font-family: var(--md-text-font-family, inherit); }
+.mermaid .label text { font-family: var(--md-text-font-family, inherit); }
 
 /* Better stroke on subgraph boxes */
 .mermaid .cluster rect { stroke-width: 1.5; }
