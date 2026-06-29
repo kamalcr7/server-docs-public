@@ -5,7 +5,7 @@ Things I've built and run on this server.
 <div class="project-card">
   <h3>🎮 BlockOps — Browser FPS</h3>
   <div class="meta">Active · Multiplayer FPS · Forge FPS fork</div>
-  <p>Arena-style browser FPS game with Socket.io networking. Forked from Forge FPS, modified with custom maps and game modes. Runs as a systemd service on port :3001.</p>
+  <p>Arena-style browser FPS game with Socket.io networking. Forked from Forge FPS, modified with custom maps and game modes. Runs as a systemd service on port :3003.</p>
   <div class="tags">
     <span class="tag">Node.js</span>
     <span class="tag">Socket.io</span>
