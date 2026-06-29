@@ -10,18 +10,18 @@ edit_uri: blob/main/docs/
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
   font:
     text: Inter
     code: JetBrains Mono

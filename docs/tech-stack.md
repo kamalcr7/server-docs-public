@@ -30,8 +30,8 @@ flowchart TD
     end
     
     subgraph OS["💿 Operating System"]
-        Ubuntu[Ubuntu 24.04 LTS]
-        ZFS[ZFS Filesystem]
+        Mint[Linux Mint 22.3]
+        Ext4[ext4 Filesystem]
         Networking[NetworkManager]
     end
     
@@ -58,19 +58,19 @@ flowchart TD
 
   <div class="info-card">
     <div class="info-card-label">OS</div>
-    <div class="info-card-value">Ubuntu 24.04 LTS</div>
+    <div class="info-card-value">Linux Mint 22.3</div>
   </div>
   <div class="info-card">
     <div class="info-card-label">CPU</div>
-    <div class="info-card-value">AMD Ryzen 5 5600G</div>
+    <div class="info-card-value">Intel Core i5-8250U</div>
   </div>
   <div class="info-card">
     <div class="info-card-label">RAM</div>
-    <div class="info-card-value">64 GB DDR4</div>
+    <div class="info-card-value">11 GB DDR4</div>
   </div>
   <div class="info-card">
     <div class="info-card-label">GPU</div>
-    <div class="info-card-value">RTX 4060 Ti</div>
+    <div class="info-card-value">Intel UHD 620 + GeForce MX110</div>
   </div>
 
 </div>

@@ -1,6 +1,6 @@
 <div class="hero-section">
   <h1>🚀 What I Run</h1>
-  <p>This is my home server — an Ubuntu box running 14 containers, game servers, an AI agent, and everything in between. Built for fun, runs 24/7.</p>
+  <p>This is my home server — an old HP laptop running Linux Mint, 14 containers, game servers, an AI agent, and everything in between. Built for fun, runs 24/7.</p>
   <div class="hero-stats">
     <div class="hero-stat">
       <span class="hero-stat-value">14</span>
@@ -11,7 +11,7 @@
       <span class="hero-stat-label">Uptime</span>
     </div>
     <div class="hero-stat">
-      <span class="hero-stat-value">64 GB</span>
+      <span class="hero-stat-value">11 GB</span>
       <span class="hero-stat-label">RAM</span>
     </div>
     <div class="hero-stat">
@@ -32,7 +32,7 @@ flowchart LR
         Pages[Cloudflare Pages]
     end
     
-    subgraph Server ["Home Server — Ubuntu 24.04"]
+    subgraph Server ["Old HP Laptop — Linux Mint 22.3"]
         Nginx[nginx<br/>Reverse Proxy]
         Containers[14 Docker<br/>Containers]
         Games[🎮 BlockOps<br/>🕹️ Arcade]

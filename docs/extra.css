@@ -174,6 +174,22 @@ html { scroll-behavior: smooth; }
 /* ─── Mermaid ─── */
 .mermaid { text-align: center; margin: 1.5rem 0; }
 
+/* ─── Mermaid text readability ─── */
+.mermaid svg { max-width: 100%; }
+
+/* Subgraph title labels — inherit theme text color */
+.mermaid .cluster-label text { fill: var(--md-typeset-color); }
+
+/* Edge labels */
+.mermaid .edgeLabel .label text { fill: var(--md-typeset-color); }
+
+/* Font consistency */
+.mermaid .label text,
+.mermaid .cluster-label text { font-family: var(--md-text-font-family, inherit); }
+
+/* Better stroke on subgraph boxes */
+.mermaid .cluster rect { stroke-width: 1.5; }
+
 .diagram-wrapper {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
