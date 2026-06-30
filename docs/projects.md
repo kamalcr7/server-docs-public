@@ -60,17 +60,6 @@ Things I've built and run on this server.
 </div>
 
 <div class="project-card">
-  <h3>💵 MoneyPrinter Turbo</h3>
-  <div class="meta">Maintenance · Streamlit + YouTube API</div>
-  <p>AI-powered short video generator. Pulls trending topics, generates scripts, synthesizes voiceover, and creates automated shorts. Deployed on port :8082.</p>
-  <div class="tags">
-    <span class="tag">Python</span>
-    <span class="tag">Streamlit</span>
-    <span class="tag">AI Video</span>
-  </div>
-</div>
-
-<div class="project-card">
   <h3>📡 Trending Content Scraper</h3>
   <div class="meta">Active · Cron Job</div>
   <p>Hermes-powered daily scraper that gathers trending content from multiple platforms (Reddit, GitHub, news). Produces a curated daily briefing delivered to Telegram.</p>
